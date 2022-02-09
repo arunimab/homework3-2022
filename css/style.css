@@ -112,7 +112,7 @@ a:focus {
 .intro {
   /* The image used */
   background-image: url("../images/header.jpg");
-  background-color: #B3B3B3;
+  background-color: #858585;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -206,6 +206,12 @@ img {
      grid-column: 2 / span 2;
    }
 
+   .about,
+   .method,
+   .clients,
+   .contact {
+     align-self: center;
+   }
 }
 
 
